@@ -1,0 +1,51 @@
+img{
+    border-radius: 100px;
+}
+
+.fa {
+    font-family: "Font Awesome";
+    font-size: 20px; /* adjust as needed */
+  }
+
+.fa-github{
+    font-size: 25px;
+    color: black;
+}
+
+.fa-envelope{
+    font-size: 25px;
+    color: black;
+}
+
+.fa-phone{
+    font-size: 25px;
+    color: black;
+}
+
+.fa-location-dot{
+    font-size: 25px;
+    color: black;
+}
+
+.fa-linkedin{
+    font-size: 25px;
+    color: black;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+ }
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
