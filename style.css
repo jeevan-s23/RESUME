@@ -11,7 +11,7 @@ body
 }
 .main
 {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: auto;
     width: 650px;
     position: absolute;
@@ -21,7 +21,7 @@ body
 }
 .left
 {
-    background-color: #fbb03b;
+    background-color: #3bd8fb;
     width: 200px;
     height: 100%;
     float: left;
@@ -39,8 +39,8 @@ body
     border-radius: 50%;
     margin-bottom: 20px;
     margin-left: 60px;
-    border: 10px solid #fbb03b;
-    box-shadow: 6px 7px 9px 5px #fbb03b73;  ;
+    border: 10px solid #3bd8fb;
+    box-shadow: 6px 7px 9px 5px #18c1f073;  ;
 }
 .profile-img img
 {
@@ -56,7 +56,7 @@ body
 {
     background-color: #4d4d4d;
     padding: 10px;
-    color: #fbb03b;
+    color: #3bd8fb;
     text-align: left;
     padding-left: 20px;
     margin-right: -15px;
@@ -128,7 +128,7 @@ body
 }
 .html
 {
-    width: 90%;
+    width: 20%;
     background-color: white;
 }
 .c
