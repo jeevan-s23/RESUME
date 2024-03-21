@@ -1,23 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=monsterrat$display=swap");
 body
 {
-    background-image: linear-gradient(#636162, #blafaf)
-    height: 122vh
-    font-weight: bold
-    letter-spacing: 2px
+    background-image: linear-gradient(#636162, white);
+    height: 122vh;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 * {
-    margin: 0px; padding: 0px; font-family: 'montserrat', sans-serif;
+    margin: 0px; 
+    padding: 0px; 
+    font-family: 'montserrat', sans-serif;
 }
 .main
 {
     background-color: rgb(255, 255, 255);
     height: auto;
     width: 650px;
-    position: absolute;
+    margin: auto;
+    /* position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
-    top: 50%;
+    top: 50%; */
 }
 .left
 {
@@ -35,7 +38,7 @@ body
 {
     height: 180px;
     width: 180px;
-    background-color: #ddd;
+    background-color: #dcdcdc;
     border-radius: 50%;
     margin-bottom: 20px;
     margin-left: 60px;
@@ -81,26 +84,31 @@ body
 {
     font-size: 25px;
     color: black;
+    font-size: 25px;
 }
 .fa-envelope
 {
     font-size: 25px;
     color: black;
+  
 }
 .fa-github
 {
     font-size: 25px;
     color: black;
+    font-size: 25px;
 }
 .fa-linkedin
 {
     font-size: 25px;
     color: black;
+    font-size: 25px;
 }
 .fa-location-dot
 {
     font-size: 25px;
     color: black;
+    font-size: 25px;
 }
 .p1
 {
@@ -121,9 +129,25 @@ body
     padding-bottom: 2px;
     color: white;
 }
+.english
+{
+    width: 100%;
+    background-color: white;
+}
+.kannada
+{
+    width: 100%;
+    background-color: white;
+}
+.telugu
+{
+    width: 95%;
+    background-color: white;
+}
+
 .html
 {
-    width: 20%;
+    width: 80%;
     background-color: white;
 }
 .c
@@ -133,7 +157,7 @@ body
 }
 .java
 {
-    width: 85%;
+    width: 65%;
     background-color: white;
 }
 .python
@@ -207,8 +231,10 @@ body
 }
 .box-2
 {
-    padding: 5px 50px;
+    padding: 1px 50px;
+    text-align: justify;
     margin-top: 30px;
+ 
 }
 .p2
 {
